@@ -1,0 +1,30 @@
+.wrapper
+{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #344151;
+}
+.heading
+{
+  color: #0398d4;
+  font-size:xx-large;
+}
+.content
+{
+  display: flex;
+
+}
+.buttonstyle
+{
+  background-color: white;
+ padding: 5px;
+ font-size: x-large;
+ border: 1px solid white;
+ margin: 1px;
+
+}
