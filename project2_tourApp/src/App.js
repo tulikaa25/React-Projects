@@ -17,13 +17,25 @@ function App() {
   {
     return(
       <div className='refresh'>
-         <h2>No Tours Left</h2>
+         <h2>No Features Left</h2>
         <button onClick={()=>{setTours(data)}}>Refresh</button>
       </div>
     )
   }
     return (<div>
-      <Tours tours={tours} removeTour={removeTour}></Tours>
+      <Tours tours={tours} removeTour={removeTour}>
+      
+    
+      </Tours>
+      {/* New Button at Bottom */}
+      <div className="nav-button-container">
+        <a 
+          href="EPICS.html" 
+          className="nav-button"
+        >
+          Continue to Next Page
+        </a>
+      </div>
     </div>)
 }
 export default App;

@@ -5,7 +5,8 @@ function Tours({tours,removeTour})
     return(
         <div className='container'>
         <div>
-        <h2 className='title'>Plan with Joy</h2>
+        <h2 className='title'>Reimagining Homes with AI</h2>
+
         </div>
         <div className='cardbox'>
         {
