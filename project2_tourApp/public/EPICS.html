@@ -759,6 +759,9 @@
             <h1 class="main-title">AI based House Planning</h1>
             <p class="description">Unlock your house plan in just 30 sec</p>
             <button class="start-btn" onclick="startPlanning()">Let's Begin !!!</button>
+            <button class="back-btn" onclick="goBackToReactApp()" style="position: absolute; top: 20px; left: 20px;">
+                ← Back to App
+            </button>
             
             <div class="language-selector">
                 <span class="language-option selected">English</span> |
@@ -1181,6 +1184,15 @@
     </div>
     
     <script>
+        // public/js/yourfile.js
+
+// Navigation functions at top
+function goBackToReactApp() {
+  window.location.href = 'index.html';
+}
+
+// Other existing code below...
+
         // Store user selections
         const userSelections = {
             'plot-width': '',

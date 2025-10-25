@@ -17,13 +17,13 @@ function Card({id,name,info,image,tag,removeTour})
     return(     //an object
         <div className='card'>
             <img src={image} alt='img' className='image'></img>
-            <div className='tour-details'>
-                <h4 className='tour-tag'>{tag}</h4>
-                <h4 className='tour-city'>{name}</h4>
+            <div className='home-details'>
+                <h4 className='home-tag'>{tag}</h4>
+                <h4 className='home-name'>{name}</h4>
             </div>
             <div className='description'>
                 {description}
-                 <span onClick={clickHandler}>
+                 <span onClick={clickHandler} className='read-more'>
                     {readmore?`show less`: `read more`}
                  </span> 
             </div> 
